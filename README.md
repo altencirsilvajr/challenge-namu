@@ -39,11 +39,6 @@ Para executar os testes, execute o comando `yarn test` ou `npm test`.
 
 ## Explicação do projeto
 
-- Node.js
-
-  - É o ambiente de execução usado em todo o backend do sistema
-  - Permite executar JavaScript/TypeScript no servidor
-
 - TSyringe
 
   - É utilizado para injeção de dependências principalmente nos seguintes locais:
