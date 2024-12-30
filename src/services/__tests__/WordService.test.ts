@@ -13,4 +13,10 @@ describe('WordService', () => {
     expect(result.word).toBe('hello');
     expect(result.meanings).toBeDefined();
   });
+
+  it('Deve lançar erro quando a palavra não existe', async () => {
+    await expect(wordService.fetchWord('palavrainexistente123'))
+      .rejects
+      .toThrow();
+  });
 }); 
